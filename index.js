@@ -1,9 +1,11 @@
 const express = require('express')
 const cors = require('cors')
 const bodyparser = require('body-parser')
+const {soal1, soal2} = require("./router")
 
 // main app
 const app = express()
+const port = 2000
 
 // apply middleware
 app.use(cors())
